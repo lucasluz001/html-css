@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* exemplo de estilo da box-level */
+h1 {
+    background-color: lightgray;
+    /* tamanho da caixa */
+    height: 300px;
+    width: 300px;
+    /* borda da caixa */
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    /* padding, fica entre a borda e o conteúdo*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* margem da caixa */
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    /* outline, fica entre a borda e a margem*/
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+}
+
+/* exemplo de estilo da inline-level */
+a {
+    /* shorthand de border tem a ordem de: 
+    border-width, border-style, border-color.*/
+    border: 10px solid red;
+    /* o shorthand do padding é de cima para a direita, como um relógio, ou seja, top, right, bottom, left. */
+    padding: 10px 10px 10px 10px; /* como são todas iguais pode ser escrito dessa forma -> padding: 10px; */
+    /* o shorthand do margin segue o mesmo exemplo do padding*/
+    margin: 10px 5px 10px 5px; /* se o top e bottom foram iguais e o right e o left forem também forem iguais, da pra simplificar dessa forma -> margin: 10px 5px; */
+    outline: 5px dashed blue;
+}

@@ -1,0 +1,4 @@
+Crie uma página HTML simples que contenha o seguinte:
+Cabeçalho com nome da empresa ou logotipo e links de navegação (não precisa ser funcional)
+Corpo com um cabeçalho e conteúdo
+Rodapé

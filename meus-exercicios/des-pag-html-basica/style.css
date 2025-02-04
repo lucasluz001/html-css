@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #730217;
+    --cor02: #8C0303;
+    --cor03: #730202;
+    --cor04: #BF7878;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --font-titulo: 'Chewy', 'serif'
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor04);
+}
+
+nav
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+
+}
+
+main h1 {
+    font-family: var(--font-titulo);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+main h2 {
+    font-family: var(--font-titulo);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7em;
+    padding-bottom: 15px;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+main img {
+    width: 100%;
+    
+}
+
+footer {
+    background-color: var(--cor02);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
