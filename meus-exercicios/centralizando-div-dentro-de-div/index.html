@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div dentro de Div</title>
+    <style>
+        /*div pai*/
+        div#fora{
+            height: 96vh;
+            background-color: #bd7df5;
+            position: relative;
+        }
+        /*div filho*/
+        div#dentro{
+            height: 200px;
+            width: 200px;
+            background-color: #f5ff40;
+            position: absolute;
+            /* posiciona ao centro*/
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro">
+
+        </div>
+    </div>
+</body>
+</html>
