@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        /* Pai */
+        #container {
+            background-color: purple;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            padding: 10px;
+            height: 96vh;
+            position: relative;
+           
+            
+        }
+        /* Filho */
+        #conteudo {
+            background-color: yellow;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            height: 200px;
+            width: 400px;
+            position: absolute;
+            /* Posição em relação ao bloco pai*/
+            top: 50%;
+            left: 50%;
+            /* Translate adiciona uma nova posição em relação a posição adicionada no top e left */
+            transform: translate(-50%,-50%);
+            
+            
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
