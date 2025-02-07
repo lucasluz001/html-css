@@ -81,7 +81,8 @@ section#img1 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
     background-attachment: fixed;
-    box-shadow: inset 5px #00000079;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px #00000065;
 }
 
 /* Imagem com efeito parallax */
@@ -89,8 +90,9 @@ section#img2 {
     background-color: var(--cor1);
     background-image: url('../imagens/background002.jpg');
     background-position: left center;
+    background-size: cover;
     background-attachment: fixed;
-
+    box-shadow: inset 6px 6px 13px 0px #00000065;
 
 }
 
@@ -98,8 +100,9 @@ section#img2 {
 section.imagem > p {
     display: inline-block;
     color: var(--cor2);
-    background-color: #00000088;
+    background-color: #0000006b;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
 /* Estilização do footer */
