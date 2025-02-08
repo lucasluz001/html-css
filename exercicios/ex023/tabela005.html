@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            display: inline-block;
+            text-align: center;
+        }
+        caption {
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th {
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cnome {
+            background-color: aliceblue;
+        }
+        
+        col.cgrupo {
+            background-color: antiquewhite;
+        }
+        
+        .verde {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="cgrupo" span="2"> <!-- aplica a configuração para a segunda e a terceira coluna-->
+        <col class="verde">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Lucas Luz</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Desenvolvedor Front-end</td>
+        </tr>
+        <tr>
+            <td>Miguel Alves</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Julia Nogueira</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Veterinária</td>
+        </tr>
+        <tr>
+            <td>Ana Souza</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>Pedro Augusto</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Advogado</td>
+        </tr>
+    </table>
+</body>
+</html>
