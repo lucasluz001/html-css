@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        table{
+           width: 600px;
+           height: 150px;
+           border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+        }
+        td, th {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <!-- Para cada célula th tio estar lado a lado, e os filhos estarem com o Pai-->
+                <th rowspan="2">Tio</th> 
+                <th rowspan="2">Tio 2</th>
+                <th colspan="2">Pai</th>
+                <th rowspan="2">Tio 3</th>
+            </tr>
+
+            <tr>
+                <th>Filho 1</th>
+                <th>Filho 2</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
