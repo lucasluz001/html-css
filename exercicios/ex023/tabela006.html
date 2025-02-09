@@ -1,165 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Tabela Nomes e filmes</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        div#container {
-            overflow-x: auto; /* Cria uma rolagem lateral somente para a div */
+        div {
+            display: inline-block;
+            text-align: center;
         }
         caption {
             text-align: center;
             background-color: lightgray;
             padding: 10px;
-            font-size: 1.5em;
         }
         table{
-            width: 500px;
-            border-collapse: collapse;
+           width: 600px;
+           height: 300px;
+           border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
         }
         td, th {
             text-align: center;
             border: 1px solid black;
-            padding: 10px;
         }
-        tr:nth-child(even){
+        tbody > tr:nth-child(2n) {
             background-color: lightgray;
         }
+        th {
+            background-color: gray;
+            color: white;
+            padding:15px;
+        }
+        
     </style>
-
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus ut, eius omnis animi excepturi ea quod nesciunt odit necessitatibus doloremque, natus rerum beatae quo adipisci officiis autem voluptatum non?</p>
-    <div id="container">
+    <div>
+        <h1>Exercicio de tabelas</h1>
         <table>
-            <caption>Tabelas Responsivas</caption>
+            <caption>Filmes favoritos</caption>
             <thead>
-                <tr>
-                    <td>Produto</td>
-                    <td>Jan</td>
-                    <td>Fev</td>
-                    <td>Mar</td>
-                    <td>Abr</td>
-                    <td>Mai</td>
-                    <td>Jun</td>
-                    <td>Jul</td>
-                    <td>Ago</td>
-                    <td>Set</td>
-                    <td>Out</td>
-                    <td>Nov</td>
-                    <td>Dez</td>
-                </tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </thead>
             <tbody>
                 <tr>
-                    <td>Playstation 4</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
+                    <th scope="rowgroup" rowspan="3">Mulheres</th>
+                    <td>Ana Maria Santos</td>
+                    <td>Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
                 </tr>
                 <tr>
-                    <td>Alexa</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
+                    <td>Beatriz Souza</td>
+                    <td>Hulk</td>
+                    <td>Inception</td>
+                    <td>Batman</td>
                 </tr>
                 <tr>
-                    <td>Samsung Galaxy S20</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
+                    <td>Claudio Melo</td>
+                    <td>Oblivion</td>
+                    <td>Matrix</td>
+                    <td>Big Hero</td>
                 </tr>
                 <tr>
-                    <td>iPhone 15</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
+                    <th scope="rowgroup" rowspan="3">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Intocáveis</td>
+                    <td>Amnésia</td>
+                    <td>Gladiador</td>
                 </tr>
                 <tr>
-                    <td>TV 50" LCD</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
+                    <td>Daniel Lourenço</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dangal</td>
                 </tr>
                 <tr>
-                    <td>Notebook ASUS</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>Home Theater</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>26</td>
-                    <td>15</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>15</td>
+                    <td>Fabiano Mota</td>
+                    <td>Star Wars 5</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy story</td>
                 </tr>
             </tbody>
         </table>
