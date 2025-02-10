@@ -16,9 +16,10 @@
     --font-titulo: 'Chewy', 'serif'
 }
 
-body {
+html, body {
     font-family: var(--fonte-padrao);
     background-color: var(--cor04);
+    height: 100%;
 }
 
 header {
@@ -35,25 +36,31 @@ nav {
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    text-align: center;
     
 }
 
 nav ul li {
     display: inline;
-    padding: 15px 30px;
-    border-radius: 10px;
+    position: relative;
+
     
 }
-nav ul li:hover {
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+
+}
+nav ul li a:hover {
+    color: black;
     background-color: #BF7878;
     transition-duration: .5s;
     
-}
-nav ul li a {
-    text-decoration: none;
-    color: white;
-
 }
 
 main {
