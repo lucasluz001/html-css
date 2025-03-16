@@ -20,3 +20,6 @@
     <li><a href="https://lucasluz001.github.io/html-css/desafios/d014/index.html">Desafio 14 (Tabela de média de notas) </a></li>
     <li><a href="https://lucasluz001.github.io/html-css/desafios/d014/exemplo.html">Desafio 14 (Exemplo) </a></li>
 </ul>
+
+<p>Se quiser fazer o curso do gustavo guanabara acesse o link abaixo: </p>
+<a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n</a>
