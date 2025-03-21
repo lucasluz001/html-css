@@ -1,0 +1,127 @@
+body {
+    background-color: #02735E;
+    color: white;
+}
+
+.container1 {
+    display: flex; /* Flexbox */
+    align-items: stretch; /* Alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+}
+
+/* Estilo das caixas */
+.container1 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container1 > div:hover {
+    opacity: 0.3;
+}
+
+.container2 {
+    display: flex; /* Flexbox */
+    align-items: flex-start; /* Alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+}
+
+/* Estilo das caixas */
+.container2 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container2 > div:hover {
+    opacity: 0.3;
+}
+
+.container3 {
+    display: flex; /* Flexbox */
+    align-items: center; /* Alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+}
+
+/* Estilo das caixas */
+.container3 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container3 > div:hover {
+    opacity: 0.3;
+}
+
+.container4 {
+    display: flex; /* Flexbox */
+    align-items: flex-end; /* Alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+}
+
+/* Estilo das caixas */
+.container4 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container4 > div:hover {
+    opacity: 0.3;
+}
+
+.container5 {
+    display: flex; /* Flexbox */
+    align-items: baseline; /* Alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+}
+
+/* Estilo das caixas */
+.container5 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container5 > div:hover {
+    opacity: 0.3;
+}
+
+.container5 > div:nth-child(2) {
+    font-size: 2em;
+}
+
+.container5 > div:nth-child(4) {
+    font-size: 4em;
+}
