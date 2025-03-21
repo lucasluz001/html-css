@@ -1,0 +1,161 @@
+body {
+    background-color: #02735E;
+    color: white;
+}
+
+.container1 {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap;
+    align-content: flex-start; /* Quando o wrap está ativo, 
+    alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+    width: 400px;
+}
+
+/* Estilo das caixas */
+.container1 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container1 > div:hover {
+    opacity: 0.3;
+}
+
+.container2 {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap;
+    align-content: flex-end; /* Quando o wrap está ativo, 
+    alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+    width: 400px;
+}
+
+
+/* Estilo das caixas */
+.container2 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container2 > div:hover {
+    opacity: 0.3;
+}
+
+.container3 {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap;
+    align-content: center; /* Quando o wrap está ativo, 
+    alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+    width: 400px;
+}
+
+/* Estilo das caixas */
+.container3 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container3 > div:hover {
+    opacity: 0.3;
+}
+
+.container4 {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap;
+    align-content: space-between; /* Quando o wrap está ativo, 
+    alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+    width: 400px;
+}
+
+/* Estilo das caixas */
+.container4 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container4 > div:hover {
+    opacity: 0.3;
+}
+
+.container5 {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap;
+    align-content: space-evenly; /* Quando o wrap está ativo, 
+    alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+    width: 400px;
+}
+
+/* Estilo das caixas */
+.container5 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container5 > div:hover {
+    opacity: 0.3;
+}
+
+.container6 {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap;
+    align-content: space-around; /* Quando o wrap está ativo, 
+    alinha os itens na direção do cross axis*/
+    border: 3px solid white;
+    height: 200px;
+    width: 400px;
+}
+
+/* Estilo das caixas */
+.container6 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container6 > div:hover {
+    opacity: 0.3;
+}
