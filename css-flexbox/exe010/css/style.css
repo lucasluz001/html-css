@@ -1,0 +1,41 @@
+body {
+    background-color: #02735E;
+}
+
+.container {
+    display: flex; /* Flexbox */
+    border: 3px solid white;
+    width: 800px;
+
+}
+
+/* Estilo das caixas */
+.container > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0;
+    width: 100px;
+    text-align: center;
+    transition: all 150ms ease;
+    /* flex-grow: 0;  Valor padrão do flex-grow*/
+    flex-grow: 1; /* Faz o flex-item crescer seu tamanho */
+}
+
+.container div:nth-child(1){
+    flex-grow: 1; /* Faz o flex-item crescer seu tamanho */
+}
+.container div:nth-child(2){
+    flex-grow: 2; /* Faz o flex-item crescer seu tamanho */
+}
+.container div:nth-child(3){
+    flex-grow: 3; /* Faz o flex-item crescer seu tamanho */
+}
+.container div:nth-child(4){
+    flex-grow: 1; /* Faz o flex-item crescer seu tamanho */
+}
+
+.container > div:hover {
+    opacity: 0.3;
+}
