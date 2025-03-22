@@ -1,0 +1,46 @@
+body {
+    background-color: #02735E;
+}
+
+.container {
+    display: flex; /* Flexbox */
+    border: 3px solid white;
+    width: 350px;
+    height: 300px;
+
+}
+.container div:nth-child(1){
+    align-self: flex-end; /* Alinha o flex-item na direção do cross axis*/
+}
+
+.container div:nth-child(2){
+    align-self: stretch; /* Alinha o flex-item na direção do cross axis*/
+}
+
+.container div:nth-child(3){
+    align-self: center; /* Alinha o flex-item na direção do cross axis*/
+}
+
+.container div:nth-child(4){
+    align-self: flex-start; /* Alinha o flex-item na direção do cross axis*/
+}
+
+.container div:nth-child(5){
+    align-self: baseline; /* Alinha o flex-item na direção do cross axis*/
+}
+
+/* Estilo das caixas */
+.container > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 150ms ease;
+}
+
+.container > div:hover {
+    opacity: 0.3;
+}
