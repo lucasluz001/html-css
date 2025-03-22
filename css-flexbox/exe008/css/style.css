@@ -8,7 +8,7 @@ body {
 }
 
 .container div:nth-child(2){
-    order: -1;
+    order: -1; /* Altera a ordem do flex-item*/
 }
 
 /* Estilo das caixas */
