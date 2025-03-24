@@ -1,0 +1,51 @@
+body {
+    background-color: #02735E;
+    color: #fff;
+}
+
+.container {
+    display: flex; /* Flexbox */
+    border: 3px solid black;
+    width: 800px;
+
+}
+
+/* Estilo das caixas */
+.container > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+    transition: all 150ms ease;
+    flex-basis: 200px; /* Define o tamanho inicial do item*/
+}
+
+.container > div:hover {
+    opacity: 0.3;
+}
+
+.container2 {
+    display: flex; /* Flexbox */
+    border: 3px solid black;
+    width: 800px;
+
+}
+
+/* Estilo das caixas */
+.container2 > div {
+    background-color: rgba(255, 255, 255, 0.30);
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+    transition: all 150ms ease;
+    flex: 1 1 200px; /* Shorthand para flex-grow, flex-shrink e flex basis*/
+    /*flex: 0 1 auto -> valor padrão de flex*/
+}
+
+.container2 > div:hover {
+    opacity: 0.3;
+}
