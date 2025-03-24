@@ -1,0 +1,39 @@
+body {
+    background-color: #02735E;
+}
+
+.container {
+    display: flex; /* Flexbox */
+    flex-flow: column nowrap;
+    min-height: 100vh;
+
+}
+
+/* Estilo das caixas */
+header{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+main{
+    flex: 1 1 0; /* Faz com que o main ocupe todo o espaço disponível*/
+    /* Ou simplesmente -> flex: 1;*/
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
