@@ -1,0 +1,19 @@
+body {
+    background-color: #02735E;
+    color: white;
+}
+
+.container {
+    display: flex; /* Flexbox */
+    align-items: center; /* Alinha no cross axis*/
+    justify-content: center; /* Alinha no main axis*/
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+}
