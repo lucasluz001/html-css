@@ -1,0 +1,30 @@
+body {
+    background-color: #02735E;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    .menu__item {
+        margin: 5px;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.30);
+        border-radius: 3px;
+        text-align: center;
+        display: flex;
+        flex: 1 1 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .menu__link {
+            color: white;
+            display: block;
+            text-decoration: none;
+            padding: 20px;
+        }
+
