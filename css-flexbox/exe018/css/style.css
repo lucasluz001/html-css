@@ -1,0 +1,89 @@
+body {
+    background-color: #02735E;
+}
+
+.weather {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.30);
+    border: 1px solid white;
+    border-radius: 1px;
+    margin: 10px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weather > div {
+    margin: 10px 0;
+}
+
+.weather__period {
+    flex: 1;
+    font-size: 2em;
+    text-align: left;
+}
+
+.weather__icon img{
+    height: 50px;
+    min-width: 50px;
+    width: 50px;
+}
+
+.weather__min {
+    font-weight: bold;
+}
+
+.weather__min::after {
+    content: ' - ';
+}
+
+@media screen and (min-width: 600px) {
+    .weather {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .weather > div {
+        margin: 0px 50px;
+    }
+
+    .weather__period {
+        font-size: 1.5em;
+        min-width: 50px;
+        text-align: left;
+    }
+
+    .weather__minmax {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather__min::after {
+        content: ' ';
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weather {
+        flex-basis: 100px;
+        flex-direction: column;
+    }
+
+    .weather > div {
+        margin: 10px 0;
+    }
+
+    .weather__period {
+        flex-basis: 100px;
+    }
+}
