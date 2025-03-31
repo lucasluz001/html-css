@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    /*grid-template-rows: 200px 200px 200px;*/
+    /*grid-column-gap: 10px;*/    
+    /*grid-row-gap:10px*/
+
+}
+
+.wrapper div {
+    display: flex;
+    background-color: #327337;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper div:nth-child(2n) {
+    background-color: #77D986;
+    text-align: center;
+    color: black;
+}
