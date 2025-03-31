@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    /*grid-template-rows: 200px 200px 200px;*/
+    /*grid-column-gap: 10px;*/    
+    /*grid-row-gap:10px*/
+    align-items: start; /* Todos os valores: start, center, end e stretch (padrão) */
+}
+
+.wrapper1 div {
+    display: flex;
+    background-color: #327337;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper1 div:nth-child(2n) {
+    background-color: #77D986;
+    text-align: center;
+    color: black;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    /*grid-template-rows: 200px 200px 200px;*/
+    /*grid-column-gap: 10px;*/    
+    /*grid-row-gap:10px*/
+    justify-items: center; /* Todos os valores: start, center, end e stretch (padrão) */
+}
+
+.wrapper2 div {
+    display: flex;
+    background-color: #327337;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper2 div:nth-child(2n) {
+    background-color: #77D986;
+    text-align: center;
+    color: black;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    /*grid-template-rows: 200px 200px 200px;*/
+    /*grid-column-gap: 10px;*/    
+    /*grid-row-gap:10px*/
+}
+
+.wrapper3 div {
+    display: flex;
+    background-color: #327337;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper3 div:nth-child(2n) {
+    background-color: #77D986;
+    text-align: center;
+    color: black;
+}
+
+.wrapper3 div:nth-child(5){
+    align-self: end; /* Todos os valores: start, center, end e stretch (padrão) */
+}
+
+.wrapper4 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    /*grid-template-rows: 200px 200px 200px;*/
+    /*grid-column-gap: 10px;*/    
+    /*grid-row-gap:10px*/
+}
+
+.wrapper4 div {
+    display: flex;
+    background-color: #327337;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper4 div:nth-child(2n) {
+    background-color: #77D986;
+    text-align: center;
+    color: black;
+}
+
+.wrapper4 div:nth-child(5){
+    justify-self: center; /* Todos os valores: start, center, end e stretch (padrão) */
+}
