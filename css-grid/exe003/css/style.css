@@ -8,12 +8,9 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com o tamanho dividido em uma fração por igual */
     grid-auto-rows: 200px;
     grid-gap: 10px;
-    /*grid-template-rows: 200px 200px 200px;*/
-    /*grid-column-gap: 10px;*/    
-    /*grid-row-gap:10px*/
 
 }
 
